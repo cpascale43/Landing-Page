@@ -1,5 +1,7 @@
 import React from "react";
 import Nav from "react-bootstrap/Nav";
+import Image from "react-bootstrap/Image"
+import Logo from "../images/logo.svg"
 
 const Navbar = () => {
   return (
@@ -10,7 +12,7 @@ const Navbar = () => {
     >
       <div className="col">
         <Nav.Item>
-          <Nav.Link href="/home">Manage</Nav.Link>
+          <Nav.Link href="/home"><Image src={Logo}/></Nav.Link>
         </Nav.Item>
       </div>
       <div className="col-6 d-flex justify-content-center">
