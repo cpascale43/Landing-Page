@@ -33,7 +33,7 @@ const Navbar = () => {
         </Nav.Item>
       </div>
       <div className="col d-flex justify-content-end">
-        <button type="button" class="btn btn-primary">
+        <button type="button" class="btn btn-color">
           Get Started
         </button>
       </div>

@@ -1,3 +1,25 @@
 body {
   background-image: url("/app/public/bg-tablet-pattern.svg");
 }
+
+h1, h3, p, a {
+  color: hsl(228, 39%, 23%)
+}
+
+.badge-color {
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+}
+
+.btn-color {
+  background-color: hsl(12, 88%, 59%);
+  color: white;
+}
+
+.footer {
+  background-color: hsl(228, 39%, 23%);
+}
+
+.orange {
+  background-color: hsl(12, 88%, 59%);
+}

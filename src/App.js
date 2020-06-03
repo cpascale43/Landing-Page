@@ -8,19 +8,23 @@ import Footer from "./Components/Footer";
 
 function App() {
   return (
-    <div className="container p-3 h-100 my-3">
-      <Navbar />
-      <Header />
-      <Main />
-      <Testimonials />
-      <div className="container">
-        <button type="button" class="btn btn-primary">
-          Get Started
-        </button>
+    <>
+      <div className="container p-3 h-100 my-3">
+        <Navbar />
+        <Header />
+        <Main />
+        <Testimonials />
+        <div className="container d-flex justify-content-center">
+          <button type="button" class="btn btn-color">
+            Get Started
+          </button>
+        </div>
       </div>
-      <Banner />
-      <Footer />
-    </div>
+      <div>
+        <Banner />
+        <Footer />
+      </div>
+    </>
   );
 }
 
